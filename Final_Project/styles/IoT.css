@@ -1,0 +1,22 @@
+body {
+	background: hsl(180, 50%, 25%);
+}
+
+
+#container {
+	display: flex;
+	flex-direction: row;
+	flex-basis: 50px;
+	justify-content: flex-end;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 1px;
+	width: 150px;
+	background-color: #d3d3d3;
+	position: center;
+	/*height: 50%; */
+	overflow: auto;
+}
