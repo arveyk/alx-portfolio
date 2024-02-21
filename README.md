@@ -1,13 +1,13 @@
-<h1>#-!- IoT System for a Greenhouse -!-#</h2>
+<h2>#-!- IoT System for a Greenhouse -!-#</h2>
 
 
 <p>This is a Portfolio project ment to showcase how much I have learned at ALX SE
 It involves, as it states, the creation of a system (internet of things system) that automates the monitoring
-and control of conditions within the greenhouse such as temperature, humidity and CO<sub>2<sub> levels.
+and control of conditions within the greenhouse such as temperature, humidity and CO<sub>2</sub> levels.
 It relies on sensors present in the greenhouse and the local system being connected to the internet inorder to access it
 remotely.
 </p>
-	<h2>	SCOPE </h2>
+	<h4>	SCOPE </h4>
 <p>This project will only be on the the functionality that starting with the data storage and presentation to the web interface.
 deployed independently and then if the need arises, the system and sensors may be incorporated.
 </p>
