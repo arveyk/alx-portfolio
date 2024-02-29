@@ -1,0 +1,29 @@
+footer {
+	display: fixed;
+	bottom: 0;
+	width: 100%;
+	left: 0;
+	color: purple;
+	height: 80px;
+	background-color: pink;
+	clear: both;
+}
+
+footer nav ul {
+	list-style: none;
+	display: flex;
+	box-sizing: border-box;
+	color: #fff;
+}
+/*
+.footer {
+}
+*/
+
+.social-link {
+	width: 20px;
+	height: 20px;
+	line-height: 80px;
+	text-decoration: none;
+	margin-right: 30px;
+}

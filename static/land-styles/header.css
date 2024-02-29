@@ -1,0 +1,29 @@
+header {
+	position: fixed;
+	display: flex;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: rgba(192, 192, 192, 0.8);
+	align-items: center;
+	justify-content: center;
+}
+
+header nav ul {
+	list-style: none;
+	text-color: white;
+	text-align: center;
+}
+
+header nav ul li {
+	display: inline-block;
+	margin-left: 24px;
+	line-height: 24px;
+	padding: 0, 10%, 0;
+	border-radius: 10px;
+	background-color: rgba(160, 214, 180, 0.9);
+}
+
+header nav ul li a {
+	text-decoration: none;
+}

@@ -1,0 +1,21 @@
+/*header {
+	position: fixed;
+	background-color: DodgerBlue;
+	text-align: center;
+	color: yellow;
+	margin: 0, auto;
+	left: 0;
+	top: 0;
+	width: 100%;
+	opacity: 0.7;
+}
+
+header button {
+	background-color: space-gray;
+}
+
+header button:hover {
+	background-color: pink;
+	opacity: 0.4;
+}
+*/

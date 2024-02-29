@@ -1,0 +1,54 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif Arial;
+	box-sizing: border-box;
+	height: 200vh;
+}
+	/*
+main {
+
+	&::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		left: 0;
+ 		background-image: url(../images/beach-sand-dune.webp);
+		background-repeat: no-repeat;
+		background-size: cover;
+		opacity: 0.5;
+		z-index:-1;
+	}
+}
+*/
+.background {
+
+}
+ */
+
+p {
+	max-width: 100ch;
+	text-overflow: ellipsis;
+	overflow-x: hidden;
+}
+main h1 {
+	margin: 100px;
+	max-width: 60ch;
+}
+
+article section img {
+	float: left;
+	padding: 20px;
+	margin: 24px;
+}
+article section  #img2 img{
+	float: left;
+}
+
+body main h1 {
+	font-size: 60px;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	margin-bottom: 18px;
+}
