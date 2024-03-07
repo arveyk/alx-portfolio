@@ -1,0 +1,128 @@
+/* Some style for glassomorphic webpage */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* reset */
+*,
+*::before,
+*::after{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Nunito" sans-serif;
+}
+
+body {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url(../images/interesting.jpg);
+	background-size: cover;
+	background-position: center
+
+}
+
+.login-form {
+	background: rgba(64, 65, 64, 0.15);
+	border: 3px solid rgba(255, 255, 255, 0.3);
+	padding: 37px;
+	border-radius: 16px;
+	backdrop-filter: blur(24px);
+	text-align: center;
+	color: white;
+	width: 450px;
+	box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, .15);
+}
+
+.login-title {
+	font-size: 36px;
+	margin-bottom: 36px;
+}
+
+.input-box {
+	margin: 24px 0;
+	position: relative;
+}
+.input-box input {
+	width: 100%;
+	background: rgba(255, 255, 255, 0.1);
+	border: none;
+	padding: 12px 12px 12px 45px;
+	border-radius: 100px;
+	outline: 3.5px solid transparent;
+	transition: 0.4s;
+	font-size: 24px;
+	color: white;
+	font-weight: 700px;
+}
+.input-box input:focus {
+	outline: 3.5px solid rgba(155, 155, 155, 0.4);
+}
+.input-box input::placeholder {
+	color: rgba(255, 255, 255, 0.9);
+	font-size: 17px;
+	font-weight: 500;
+}
+
+.input-box i {
+	position: absolute;
+	left: 14px;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 24px;
+	color: rgba(5, 5, 5, 0.6);
+}
+
+.remember-forgot-box {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 0;
+	font-size: 15px;
+}
+.remember-forgot-box label {
+	display: flex;
+	gap: 8px;
+}
+
+.remember-forgot-box input {
+	accent-color: white;
+	cursor: pointer;
+}
+.remember-forgot-box a {
+	color: white;
+	text-decoration: none;
+}
+.remember-forgot-box a:hover {
+	text-decoration: underline;
+}
+
+.login-btn {
+	width: 100%;
+	padding: 10px 0;
+	background: #2f9cf4;
+	border: none;
+	border-radius: 99px;
+	color: white;
+	font-size: 17px;
+	font-weight: 700;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.login-btn:hover {
+	background: #0b87bc;
+}
+
+.register {
+	margin-top: 15px;
+	font-size: 15px;
+}
+.register a {
+	color: white;
+	text-decoration: none;
+	font-weight: 500;
+}
+.register a:hover {
+	text-decoration: underline;
+}
