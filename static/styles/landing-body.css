@@ -1,14 +1,28 @@
-/*
- * body {
-	opacity: 0.6;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-image: url('../background.jpg');
+/* Landing page Styling*/ 
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
 }
-*/
 
 body {
-	background-color: rgba(120, 172, 179, 0.5);
-	opacity: 0.7;
+	height: 100vh;
+	background-color: #000;
+	background-image: url(../images/dune-moon.jpg);
+	background-size: cover;
+	background-position: center;
 }
 
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 1rem;
+}
+a:hover {
+	color: pink;
+}

@@ -5,7 +5,7 @@ footer {
 	left: 0;
 	color: purple;
 	height: 80px;
-	background-color: pink;
+	background-color: rgba(51, 102, 153, 0.7);
 	clear: both;
 }
 
@@ -15,15 +15,24 @@ footer nav ul {
 	box-sizing: border-box;
 	color: #fff;
 }
-/*
-.footer {
-}
-*/
 
-.social-link {
+footer {
+	position: fixed;
+	bottom: 0;
+}
+
+footer nav ul li a {
+	background-color: white;
+	border-radius: 50%;
+	text-decoration: none;
+	padding: 14px;
+	margin-right: 30px;
+}
+
+/*.social-link {
 	width: 20px;
 	height: 20px;
 	line-height: 80px;
 	text-decoration: none;
-	margin-right: 30px;
 }
+*/

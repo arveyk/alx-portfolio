@@ -1,15 +1,88 @@
-img {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	align-content: flex-start;
-	justify-content: space-between;
-	gap: 1em;
-	opacity: 0.7;
-	width: 225px;
-	height: 225px;
+header {
+	position: relative;
+	padding;
 }
 
-.img3 {
-	height: 212px;
+.navbar {
+	width: 100%;
+	height: 60px;
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navbar .logo a{
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+.navbar .links {
+	display: flex;
+	gap: 24px;
+}
+
+.navbar .toggle-btn {
+	color: #fff;
+	font-size: 1.5rem;
+	cursor: pointer;
+ 	display: none;
+}
+
+.dropdown {
+	position: absolute;
+	right: 2rem;
+	top: 60px;
+	width 400px;
+	height: 0;
+	background: rgba(255, 255, 255, 0.1);
+	border-radius: 12px;
+	backdrop-filter: blur(12px);
+	overflow: hidden;
+	display: none;
+	transition: height 0.3s;
+}
+.dropdown.open {
+	height: 240px;
+}
+.dropdown li {
+	padding: 0.7rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+section#main {
+	height: calc(100vh - 60px);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: white;
+	flex-direction: column;
+
+}
+
+#main h1 {
+	font-size: 5rem;
+	margin-bottom: 23px;
+}
+#main p{
+	max-width: 60ch;
+}
+
+/* Making the Webpage Responsive */
+
+@media(max-width : 992px){
+	.navbar .links{
+		display: none;
+	}
+	.navbar .toggle-btn{ 
+		display: block;
+	}
+
+	.dropdown {
+		display: block;
+	}
 }
