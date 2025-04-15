@@ -21,7 +21,6 @@ class FileStorage:
     def new(self, obj):
         obj_key = f"{obj.__class__.__name__}.{obj.id}"
         self.__objects[obj_key] = obj.to_dict()
-        print(obj, obj.__str__)
 
     def save(self):
         """Saves , serialixes __objects
