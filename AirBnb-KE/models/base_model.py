@@ -22,7 +22,7 @@ class BaseModel:
             self.id = kwargs.get("id")
 
     def __str__(self):
-        return f"[{BaseModel.__name__}] ({self.id}) {self.__dict__}"
+        return f"[{self.__class__.__name__}] ({self.id}) {self.__dict__}"
 
     def save(self):
         self.update_at = str(datetime.now())
