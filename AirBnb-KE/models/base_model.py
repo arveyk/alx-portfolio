@@ -47,6 +47,4 @@ class BaseModel:
                 return_dict["updated_at"] = \
                     updated_at.strftime("%Y-%m-%dT%H:%M:%S.%f")
 
-        print(("__init__ check", self.updated_at))
-
         return dict(return_dict)
